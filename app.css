@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #F0F0F0;
+}
+
+h2 {
+	margin-bottom: 1em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #ff751a;
+	font-color: #000000;
+	font-size: 50px;
+	border: 3px solid black;
+}
+
+.nav {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+.col-sm-2 {
+	margin-right: 1em;
+}
+
+#network {
+	height: 100%;
+	height: 600px;
+}
+
+.nav-tabs {
+	font-weight : bold;
+}
+
+.pretty {
+	flex: 1 1 auto;
+	align-content: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 1em;
+}
+
+.p-success-o > label {
+	font-weight: bold;
+}
+
+#add, #remove, #update  { 
+	border-radius: 50%;
+	display: inline-block;
+	font-weight : bold;
+	border: 1.25px solid black;
+}
+
+.btn:hover{ 
+	background-color: #66ff99;
+	transition: all 0.3s ease-in-out
+ }
+
+.bglayer {
+  background-color: #000000;
+}
+
+.selectize-dropdown {
+	font-weight: bold;
+}
+
+.selectize-dropdown-content .option:hover {
+	background-color: #66ff99;
+	transition: all 0.3s ease-in-out
+}
+
+
+
+#update { 
+	text-align : center; 
+	font-family : Sans-Serif;
+	height: 25em 25em;
+	}
+
+#score {
+  text-align : center;
+  font-weight : bold;
+  font-size : 2em;
+}
+
+
+#block {
+	background-image: url("architecture.jpg");
+}
+
+#canvas {
+	border:.2px solid #ffffff;
+	height: 3vh;
+	flex: 1 1 auto;
+}
+
+#group { 
+	width : 50%;
+}
+
